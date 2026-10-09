@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vehicle Details</title>
+<style>
+    body {
+        margin: 0;
+        padding: 16px 8px;
+        background: #fff;
+        color: #000;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 16px;
+    }
+
+    h1 {
+        margin: 0 0 22px 0;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .notice {
+        margin-bottom: 18px;
+        font-size: 17px;
+    }
+
+    .url {
+        margin: 0 0 22px 0;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .details {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 1.38;
+    }
+
+    .row {
+        min-height: 22px;
+    }
+
+    .label {
+        display: inline-block;
+    }
+</style>
+</head>
+<body>
+
+<h1>Vehicle Receipt Details</h1>
+
+<div class="details">
+    <div class="row">State Name : ASSAM </div>
+    <div class="row">Office Name : DTO KAMRUP </div>
+    <div class="row">Vehicle Registration Number : AS01AT2672 </div>
+    <div class="row">Chassis Number : MAT612221AYG22661 </div>
+    <div class="row">Engine Number : 273MPFIO1FZYK13145</div>
+    <div class="row">Seating Capacity : 4 </div>
+    <div class="row">Standing Capacity :</div>
+    <div class="row">Sleeper Capacity :</div>
+    <div class="row">Owner Name : SHAIK SILAR SAHEB </div>
+    <div class="row">Laden Weight : 935</div>
+    <div class="row">Unladen Weight : 635 </div>
+    <div class="row">Father's Name : MR. SHAIK HUSSAIN SAHEB </div>
+    <div class="row">Registration From Date : 23-Jan-2026</div>
+    <div class="row">Registration Upto Date : 22-Jan-2031</div>
+    <div class="row">Address : QTR NO-D 38 14 FAD NARENGI CANTT, NARENGI GHY, GHY, ASSAM-781027</div>
+</div>
+
+
+<script>
+    // Change only the URL displayed in the browser after the page loads.
+    // The page itself is not reloaded.
+    window.addEventListener("load", function () {
+        history.replaceState(
+            {},
+            document.title,
+            "qr.parivahan.gov.in/qrCodeV/vahan/view/printRcDtls.xhtml?faces-redirect=true"
+        );
+    });
+</script>
+
+</body>
+</html>
+
+
+
